@@ -1,6 +1,3 @@
 Flask
-# Para abrir navegador automáticamente (incluido en Python estándar)
-# Para desarrollo profesional, puedes agregar:
 Jinja2
-# Si usas waitress para producción:
-# waitress
+gunicorn
