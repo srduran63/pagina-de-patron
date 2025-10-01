@@ -199,3 +199,23 @@ if __name__ == '__main__':
 
     threading.Timer(1.0, open_browser).start()
     app.run(debug=True)
+
+# Entorno virtual
+.venv/
+venv/
+
+# Variables de entorno
+.env
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+git --version
+git pull origin main --allow-unrelated-histories
+git add .
+git commit -m "Merge remoto y local"
+git push -u origin main
